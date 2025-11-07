@@ -1,7 +1,19 @@
 import subprocess
 
 def flush_dns():
+    print("""
+                    
+▗▄▄▖▗   ▗  ▖ ▄▄ ▗  ▖
+▐   ▐   ▐  ▌▐▘ ▘▐  ▌
+▐▄▄▖▐   ▐  ▌▝▙▄ ▐▄▄▌
+▐   ▐   ▐  ▌  ▝▌▐  ▌
+▐   ▐▄▄▖▝▄▄▘▝▄▟▘▐  ▌
+                    
+GitHub: irhdab/macos_dnsflush
+    
+    """)
     try:
+
         # macOS DNS flush
         cmd = ["sudo", "killall", "-HUP", "mDNSResponder"]
 
