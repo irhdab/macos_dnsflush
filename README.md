@@ -178,4 +178,4 @@ Create a GUI shortcut for execution:
 - Understand the security implications before automating with elevated privileges
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
